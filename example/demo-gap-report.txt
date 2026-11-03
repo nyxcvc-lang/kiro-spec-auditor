@@ -1,0 +1,4 @@
+REQ-101 COVERED src=['example/src/calc.py'] tests=['example/tests/test_calc.py']
+REQ-102 COVERED src=['example/src/calc.py'] tests=['example/tests/test_calc.py']
+REQ-103 MISSING src=[] tests=[]
+summary: 2/3 covered, 1 gaps, 0 orphans
