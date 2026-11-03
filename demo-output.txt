@@ -1,0 +1,20 @@
+=== 1. Self-audit: all requirements covered ===
+REQ-001 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-002 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-003 COVERED src=['src/__init__.py', 'src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-004 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-005 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-006 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-007 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-008 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-009 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-010 COVERED src=['src/spec_auditor.py'] tests=['tests/test_auditor.py']
+REQ-999 ORPHAN src=[] tests=['tests/test_auditor.py']
+summary: 10/10 covered, 0 gaps, 1 orphan
+
+=== 2. Example project: one requirement missing ===
+REQ-101 COVERED src=['example/src/calc.py'] tests=['example/tests/test_calc.py']
+REQ-102 COVERED src=['example/src/calc.py'] tests=['example/tests/test_calc.py']
+REQ-103 MISSING src=[] tests=[]
+summary: 2/3 covered, 1 gap, 0 orphans
+(exit 1 = gaps found, as designed)
