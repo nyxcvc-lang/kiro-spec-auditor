@@ -21,16 +21,11 @@
   - Flags: `--spec`, `--src`, `--tests`.
   - _Requirements: REQ-010_
 
-- [x] 5. Demo + submission polish (partial)
+- [x] 5. Demo + submission polish
   - Self-audit output saved as `demo-report.txt`.
-  - Demo script `demo.sh` + `demo-output.txt` (self-audit green, example
-    gap red) + `example/` target project with a deliberate REQ-103 gap.
+  - Demo script `demo.sh` + `demo-output.txt` (self-audit green, example gap red) + `example/` target project with a deliberate REQ-103 gap.
   - Terminal demo recording `demo.cast` (from `script -c ./demo.sh`).
   - Tests runnable without pytest: `python3 run_tests.py` (4/4 pass).
-  - Local git repo initialised + committed (no remote yet).
-  - Devpost draft text in `DEVPOST-DRAFT.md` (NOT submitted; repo link and
-    demo video still to fill in).
-  - Remaining (needs nyx's account tap): push repo to GitHub, upload demo
-    video, fill in Devpost links, request free credits by 2 Dec 2026
-    04:00 +08, final submit by 5 Dec 2026 06:00 +08.
+  - Repo is public.
+  - Remaining: hosted demo video link, Devpost Additional info step, request free credits by 2 Dec 2026 04:00 +08, final submit by 5 Dec 2026 06:00 +08.
   - _Requirements: all (demonstration)_
